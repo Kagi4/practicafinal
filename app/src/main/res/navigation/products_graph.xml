@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/products_graph"
+    app:startDestination="@id/productsFragment">
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.guillecarrasco.practicafinal.ui.fragments.product.ProductsFragment"
+        android:label="SuperStore">
+        <action
+            android:id="@+id/action_productsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:popUpTo="@id/productsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.guillecarrasco.practicafinal.ui.fragments.product.DetailsFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="PRODUCT_KEY"
+            app:argType="com.guillecarrasco.practicafinal.models.Product" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment3"
+        android:name="com.guillecarrasco.practicafinal.ui.fragments.cart.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

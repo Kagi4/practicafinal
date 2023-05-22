@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/productsFragment"
+        android:title="@string/products"
+        android:icon="@drawable/ic_storefront" />
+    <item
+        android:id="@+id/cartFragment3"
+        android:title="@string/cart"
+        android:icon="@drawable/ic_shopping_cart" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/log_out"
+        android:icon="@drawable/ic_logout" />
+</menu>

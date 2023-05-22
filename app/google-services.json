@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846702872834",
+    "firebase_url": "https://practicafinal-fb490-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "practicafinal-fb490",
+    "storage_bucket": "practicafinal-fb490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846702872834:android:3056fd1951e478672e1a1b",
+        "android_client_info": {
+          "package_name": "com.guillecarrasco.practicafinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846702872834-tts0chuin0446b8oflgkmhjcokl0689m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsntf4-rEhQmvLP0GHr8wcrJvBYvYisMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846702872834-tts0chuin0446b8oflgkmhjcokl0689m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
